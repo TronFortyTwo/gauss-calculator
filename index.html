@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Gauss Calculator</title>
+		
+		<link href="style.css" rel="stylesheet" type="text/css">
+		
+		<meta name = "keywords" content = "Gauss, calculator, topography" />
+		<meta name = "description" content = "Social game" />
+		<meta name = "author" content = "Emanuele Sorce" />
+		
+		<script type="text/javascript" src="gauss.js"></script>
+	</head>
+	
+	<body onload="init()">
+		<center>
+			
+			<noscript>
+				Sorry... JavaScript is needed to go ahead. Enable it in your browser to continue
+			</noscript>
+
+			
+			<hr>
+			<h1>Gauss Calculator</h1>
+			<hr>
+		
+
+			<table width="85%" border="11" id="table">
+				<tr>
+					<td><b>Pt</b></td>
+					<td><b>X</b></td>
+					<td><b>Y</b></td>
+				</tr>
+				
+				<tr>
+					<td colspan="3">
+						<center>
+							<input id="table_button" type="button" value="Add a point" onClick="addPoint()" style="width:100%">
+						</center>
+					</td>
+				</tr>
+			</table>
+			
+			
+			<h3 id="area">AREA: </h3>
+			
+			<br>
+			<hr>
+			<h7>Copyright(c) 2018 Emanuele Sorce<br>Licensed under GNU GPLv3 License</h7>
+			
+		</center>
+	</body>
+</html>
