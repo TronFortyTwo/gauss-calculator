@@ -69,9 +69,9 @@ function confirm()
 	let cell2 = document.createElement("td");
 	let cell3 = document.createElement("td");
 	
-	cell1.innerHTML = "PT " + ptnum;
-	cell2.innerHTML = x;
-	cell3.innerHTML = y;
+	cell1.innerHTML = "<center>PT&nbsp;" + ptnum + "</center>";
+	cell2.innerHTML = "<center>" + x + "<center>";
+	cell3.innerHTML = "<center>" + y + "<center>";
 	
 	new_row.appendChild(cell1);
 	new_row.appendChild(cell2);
