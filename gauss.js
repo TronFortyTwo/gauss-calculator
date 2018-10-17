@@ -23,7 +23,7 @@ function addPoint()
 	let cell2 = document.createElement("td");
 	let cell3 = document.createElement("td");
 	
-	cell1.innerHTML = "PT&nbsp;" + ptnum;
+	cell1.innerHTML = "<center>PT&nbsp;" + ptnum + "</center>";
 	cell2.innerHTML = "<center><input id='inx' type='text' style='width:80%'></center>"
 	cell3.innerHTML = "<center><input id='iny' type='text' style='width:80%'></center>"
 	
